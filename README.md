@@ -1,1 +1,1 @@
-# ocr-booki
+# booki-starter-pack
