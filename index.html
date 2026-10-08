@@ -41,16 +41,18 @@
           <!-- 1.2 SEARCH CONTAINER -->
           <form class="search">
             <div class="location-icon"><img src="images/icones/location-icone.svg" alt="Icône de localisation" /></div>
-            <input type="text" placeholder="Entrer une ville.." />
+            <input type="text" value="Marseille, France" />
             <button type="submit">Rechercher</button>
           </form>
 
           <div class="search-container-filters">
             <h3 class="weighted-text">Filtres</h3>
-            <button><img src="images/icones/argent.svg" alt="Icône Argent" />Économique</button>
-            <button><img src="images/icones/family.svg" alt="Icône Famille" />Familial</button>
-            <button><img src="images/icones/heart.svg" alt="Icône Cœeur" /> Romantique</button>
-            <button><img src="images/icones/flame.svg" alt="Icône Flamme" /> Nos pépites</button>
+            <div class="filters-buttons">
+              <button><img src="images/icones/argent.svg" alt="Icône Argent" />Économique</button>
+              <button><img src="images/icones/family.svg" alt="Icône Famille" />Familial</button>
+              <button><img src="images/icones/heart.svg" alt="Icône Cœeur" /> Romantique</button>
+              <button><img src="images/icones/flame.svg" alt="Icône Flamme" /> Nos pépites</button>
+            </div>
           </div>
           <div class="search-container-info">
             <img src="images/icones/info.svg" alt="Icône Info" />
@@ -253,19 +255,27 @@
           <div class="activites-cards">
             <a class="card" href="#">
               <img src="images/activites/reno-laithienne.jpg" alt="Vieux-Port" />
-              <h3 class="card-title">Vieux-Port</h3>
+              <div class="activites-title-container">
+                <h3 class="card-title">Vieux-Port</h3>
+              </div>
             </a>
             <a class="card" href="#">
               <img src="images/activites/paul-hermann.jpg" alt="Fort de Pomègues" />
-              <h3 class="card-title">Fort de Pomègue</h3>
+              <div class="activites-title-container">
+                <h3 class="card-title">Fort de Pomègue</h3>
+              </div>
             </a>
             <a class="card" href="#">
               <img src="images/activites/kilyan-sockalingum.jpg" alt="Parc National des Calanques" />
-              <h3 class="card-title">Parc National des Calanques</h3>
+              <div class="activites-title-container">
+                <h3 class="card-title">Parc National des Calanques</h3>
+              </div>
             </a>
             <a class="card" href="#">
               <img src="images/activites/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde" />
-              <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+              <div class="activites-title-container">
+                <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+              </div>
             </a>
           </div>
         </section>
@@ -281,7 +291,7 @@
         <div class="footer-div">
           <h3>Nos hébérgements</h3>
           <a href="#">Charte qualité</a>
-          <a href="#">Porposer votre hôtel</a>
+          <a href="#">Proposer votre hôtel</a>
         </div>
         <div class="footer-div">
           <h3>Assistance</h3>
